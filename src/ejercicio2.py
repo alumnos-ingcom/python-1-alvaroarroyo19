@@ -24,3 +24,16 @@ def signo(numero):
         print("Positivo")
 
     return numero
+
+
+def principal():
+    """
+    Esta función es la que inicia el programa, se encarga de la entrada,
+    la llamada al algoritmo y la salida 
+    """
+    numero = int(input("Ingrese un número positivo o negativo "))
+    resultado = signo(numero)
+
+
+if __name__ == "__main__":
+    principal()
