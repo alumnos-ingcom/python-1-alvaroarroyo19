@@ -17,4 +17,3 @@ def convertir_a_fahrenheit(centigrados):
 def convertir_a_centigrados(fahrenheit):
     formula_g = (fahrenheit - 32) * 5/9
     return formula_g
-
