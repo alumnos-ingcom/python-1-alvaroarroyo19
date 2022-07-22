@@ -39,7 +39,7 @@ def principal():
 
     seleccion = salida
 
-    while seleccion != "1" and seleccion !="2" :
+    while seleccion != "1" and seleccion !="2":
         print("¡Elección equivocada!")
         principal()
 
